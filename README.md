@@ -18,4 +18,4 @@ Contributions to this project are welcome. If you find any bugs or have suggesti
 ## Contact
 For questions or support, please contact me at sanketbhandari22@gmail.com
 
-To View my project [Click Here](https://sanketbhandari.github.io/Javascript-Projects/)
+To View my project [Click Here](https://sanketbhandari.github.io/Simple-Calculator/)
