@@ -1,5 +1,6 @@
 .text-center{
     text-align: center;
+    
   }
   
   .bg-red{
@@ -8,6 +9,13 @@
   
   .mx-auto{
     margin: auto;
+  }
+
+  .border{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: black;
   }
   
   .flex{
@@ -18,5 +26,5 @@
   }
   
   .items-center{
-    align-items: center;
+    align-items: center; 
   }
