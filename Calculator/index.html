@@ -1,44 +1,52 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Javascript
-        </title>
-        <link rel="stylesheet" href="style.css" type="text/css">
-        <style>
-            .mycal{
-                width: 350px;
-                height: 350px;
-                background-color: dimgray;
-                padding: 5px;
-            }
-            .output{
-                line-height: 40px;
-                background-color: white;
-                color: #000;
-                height: 40px;
-                margin-bottom: 10px;
-                font-size: 1.4em;
-                text-align: right;
-                font-family: monospace;
-                padding: 0.8px;
-            }
-            .button{
-                width: 50px;
-                height: 50px;
-                padding: 7px;
-                margin: 3px;
-                background-color: azure;
-                text-align: center;
-                font-size: 1.5em;
-                cursor: pointer;
-                vertical-align: middle;
-                line-height: 50px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="mycal">
-            
-        </div>
-    </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculate me! - A calculator made my me</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="utils.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1 class="text-center">Welcome to Calculate me!</h1>
+  <div class="container flex flex-col items-center mx-auto m-w-20">
+    <div class="row">
+      <input class="input" type="text"/>
+    </div>
+    <div class="row">
+      <button class="button">C</button>
+      <button class="button">%</button>
+      <button class="button">M+</button>
+      <button class="button">M-</button>
+    </div>
+    <div class="row">
+      <button class="button">7</button>
+      <button class="button">8</button>
+      <button class="button">9</button>
+      <button class="button">*</button>
+    </div>
+    <div class="row">
+      <button class="button">4</button>
+      <button class="button">5</button>
+      <button class="button">6</button>
+      <button class="button">/</button>
+    </div>
+    <div class="row">
+      <button class="button">1</button>
+      <button class="button">2</button>
+      <button class="button">3</button>
+      <button class="button">+</button>
+    </div>
+    <div class="row">
+      <button class="button">0</button>
+      <button class="button">.</button>
+      <button class="button">=</button>
+      <button class="button">-</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
 </html>
